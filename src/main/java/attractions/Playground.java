@@ -10,10 +10,7 @@ public class Playground extends Attraction implements ISecurity {
     }
 
 
-
-//    public void isAllowedTo(Visitor visitor) {
-//        if(visitor.getAge() <= 15 ) {
-//            return true;
-//        }
+    public boolean isAllowedTo(Visitor visitor) {
+      return visitor.getAge() <= 15  ;
     }
-//}
+}
