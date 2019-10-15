@@ -11,4 +11,9 @@ public class IceCreamStall extends Stall implements IReviewed {
     public int getRating() {
         return 0;
     }
+
+    public int addRating(int rating){
+        int newRating = 0;
+        return newRating + rating;
+    }
 }
