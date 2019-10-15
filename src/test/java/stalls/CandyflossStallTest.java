@@ -29,4 +29,9 @@ public class CandyflossStallTest {
     public void hasParkingSpot(){
         assertEquals(ParkingSpot.A1, candyflossStall.getParkingSpot());
     }
+
+    @Test
+    public void canAddRating(){
+        assertEquals(5, candyflossStall.addRating(5));
+    }
 }
